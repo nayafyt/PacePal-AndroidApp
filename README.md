@@ -1,0 +1,2 @@
+## PacePal 
+PacePal is an Android application developed as part of a distributed systems course project. The goal of the project is to build an app that can be used on multiple devices utilizing a client-server architecture. The application applies principles of distributed computing, such as managing concurrent processes, inter-thread communication, and data synchronization, to create a responsive and efficient mobile application. Multiple clients can connect to a single server, allowing for coordinated and synchronized operations.
