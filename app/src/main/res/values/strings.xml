@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pace Pal</string>
+    <string name="comparisonator">Comparisonator</string>
+    <string name="global_stats">Global Stats</string>
+    <string name="analyze_route">Analyze Route</string>
+    <string name="personal_stats">Personal Stats</string>
+    <string name="default_results">The results will be shown</string>
+    <string name="back_to_menu">Back</string>
+
+
+</resources>
+

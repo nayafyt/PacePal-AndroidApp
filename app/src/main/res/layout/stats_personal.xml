@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalStats"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/label"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:textSize="20dp"
+        android:text=""/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_person_icon"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="text"
+        android:hint="Username"
+        android:id="@+id/inputPS"
+       />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/light_purple"
+        android:textColor="@color/green_blue"
+        android:text="Go"
+        android:id = "@+id/btnGo"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
